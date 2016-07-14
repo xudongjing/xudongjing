@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑"
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#first-index {
+    width: 100%;
+    height:100%;
+    background: url('../images/banner1.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+#first-index:before {
+    content: '';
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#first-index .nav {
+    width: 900px;
+    height: 60px;
+   left: 0;
+   right: 0;
+    margin: auto;
+    top: 4%;
+    position: absolute;
+    z-index: 2;
+}
+.left-nav > a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.left-nav {
+    float: left;
+}
+.left-nav > a:hover {
+    color:#ffc0cb;
+}
+.right-nav {
+    float: right;
+}
+.right-nav > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.eng-title {
+    font-size: 50px;
+    color: white;
+    width: 900px;
+    position: absolute;
+    top: 22%;
+    z-index: 2;
+    margin: auto;
+    left: 0;
+   right: 0;
+}
+.myself {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 43%;
+    width: 900px;
+}
+.myself img {
+    width: 600px;
+}
+.radius {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 70%;
+    width: 900px;
+}
+.radius-text {
+    background: white;
+    border-radius: 35px;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.radius-text a {
+    text-decoration: none;
+    color: #292929;
+}
+.radius :hover{
+    background: black;
+    color: white;
+}
+
+#mycolletion {
+    width: 900px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 70px;
+}
+
+.firstcol {
+    width: 900px;
+    height: 60%;
+}
+
+.leftcol {
+    float: left;
+    display: inline-block;
+    width: 10%;
+    margin-top: 30px;
+}
+
+.see-mycol {
+    background-color:black;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    top: 265px;
+}
+
+.see-mycol a {
+    color: white;
+    text-decoration: none;
+}
+
+.see-mycol:hover{
+    background: white;
+    border: 3px solid black;
+}
+.see-mycol a:hover {
+    color: black;
+}
+
+.rightcol {
+    float:right;
+    display: inline-block;
+}
+
+.secondcol {
+    position: relative;
+    top: 50px;
+    font-size: 0;
+}
+.secondcol img {
+    margin-right: 29px;
+    
+}
+.secondcol img:last-child {
+    margin-right: 0;
+}
+#third-index {
+    width: 100%;
+    height:700px;
+    background: url('../pic1.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+}
+
+.aboutme {
+    width: 900px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.left-aboutme {
+    width: 90px;
+    position: relative;
+    float: right;
+    margin-top: 210px;
+    display: inline-block;
+    
+}
+
+.right-aboutme {
+    background-color: black;
+    width: 505px;
+    height: 360px;
+    position: relative;
+    float: right;
+    margin: auto;
+    display: inline-block;
+    margin-top: 170px;
+}
+
+.text {
+    color: white;
+   font-size: 12px;
+   text-align: left;
+    line-height: 25px;
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.see-resume {
+    background-color: white;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top:500px;
+    right:60px;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.see-resume a {
+    text-decoration: none;
+    color: black;
+}
+
+.see-resume:hover {
+      background: black;
+      border: 1px solid white;
+}
+.see-resume a:hover {
+     color: white;
+}
+#contactme  {
+    /*position: absolute;*/
+    width: 900px;
+    height: 440px;
+    position: relative;
+    margin: auto;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin-top: 100px;*/
+    margin: 0 auto;
+    padding: 100px auto;
+}
+
+.contact-text {
+    display: block;
+    margin: 100px auto 0;
+}
+
+.contact-ways {
+    position: relative;
+    margin-top: 60px;
+}
+
+.contact-ways img {
+    display: inline-block;
+    margin-left: 130px;
+    width: 50px;
+    height: 50px;
+} 
+.contact-ways p {
+    text-indent:30px;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.left-ways {
+    display: block;
+    float: left;
+    width: 450px;
+}
+
+.left-ways > div, .right-ways > div {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.left-ways > div > img, .left-ways > div > p,
+.right-ways > div > img, .right-ways > div > p {
+    float: left;
+}
+ 
+
+
+
+.right-ways {
+    display: block;
+    float: left;
+    width: 450px;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+#footer p {
+    width: 900px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 140px;
+}
+
+
+.back {
+    width: 900px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.back img {
+    display: block;
+    margin: auto;
+    width: 6%;
+}
