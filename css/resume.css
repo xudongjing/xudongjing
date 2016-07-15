@@ -96,10 +96,11 @@ a.left-item {
     left: 0;
     right: 0;
     position: relative;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     height: 100px;
     line-height: 60px;
+    font-size: 14px;
 }
 
 .cutoff {

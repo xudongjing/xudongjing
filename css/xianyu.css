@@ -9,8 +9,8 @@ html, body {
 }
 #first-index {
     width: 100%;
-    height:55%;
-    background: url('../images/banner3.jpg') no-repeat center center ;
+    height: 1500px;
+    background: url('../images/xianyu1.jpg') no-repeat top center;
     background-size: cover;
     position: relative;
 }
@@ -18,7 +18,7 @@ html, body {
     content:'';
     width: 100%;
     height:100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0);
     z-index: 1;
     position: absolute;
     top: 0;
@@ -74,101 +74,25 @@ a.left-item {
 }
 
 
-
-.nav2 {
-    width: 900px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    position: relative;
-    margin-top: 5px;
-    text-align: center;
-    height: 100px;
-    line-height: 60px;
-    font-size: 14px;
-}
-
-.cutoff {
+.second {
     width: 100%;
-    height: 2px;
-    background-color: #f4f4f4;
-}
-
-.nav2 a {
-    text-decoration: none;
-    color: #1e1e1e;
-}
-.nav2 a:hover {
-    color: pink;
-}
-
-
-
-.all {
-    margin-bottom:70px;
-}
-.all a {
-    text-decoration: none;
-    color: #1e1e1e;
-}
-.all p a:hover {
-    color: pink;
-}
-
-
-.first ,.second,.third,.fourth {
+    height: 1000px;
     width: 900px;
     margin: auto;
     left: 0;
     right: 0;
-    position: relative;
-    top: 5px;
-    font-size: 0;
-}
-.first a,.second a ,.third a ,.fourth a {
-    margin-right: 28px;
-}
-.first a:last-child,.second a:last-child
-,.third a:last-child,.fourth a:last-child {
-    margin-right: 0;
 }
 
-
-
-.first-text,.second-text,.third-text,.fourth-text{
-    width: 950px;
-    height: 100px;
+.second img {
+    width: 100%;
     margin: auto;
-    left: 25px;
-    right: 0;
-    position: relative;
-    top: 18px;
-}
-.first-text div,.second-text div,.third-text div
-,.fourth-text div {
-    margin-right: 28px;
-    float: left;
-    width: 281px;
 }
 
-
-.big {
-    font-size: 16px;
-    color: #1e1e1e;
+.second p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
-
-.small {
-    font-size: 12px;
-    color: #787777;
-}
-.first-text p,.second-text p,.third-text p,.fourth-text p {
-     margin-bottom: 10px;
-}
-
-
-
-
-
 
 
 
