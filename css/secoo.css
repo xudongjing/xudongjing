@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑"
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#first-index {
+    width: 100%;
+    height: 100%;
+    background: url('../images/secoo1.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#first-index:before {
+    content:'';
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#first-index .nav {
+    width: 900px;
+    height: 60px;
+   left: 0;
+   right: 0;
+    margin: auto;
+    top: 3%;
+    position: absolute;
+    z-index: 2;
+}
+.left-nav > a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.left-nav a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: inline;
+    margin-right:45px;
+   
+}
+.left-nav > div a:hover {
+    color:#ffc0cb;
+}
+
+a.left-item {
+    color: pink;
+}
+
+.right-nav {
+    float: right;
+}
+.right-nav > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+
+.second {
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.pic1 {
+    width: 80%;
+}
+
+.pic2 {
+    width: 30%;
+}
+.second-text {
+    width: 900px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.second p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+#footer p {
+    width: 900px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 140px;
+}
+
+
+.back {
+    width: 900px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.back img {
+    display: block;
+    margin: auto;
+    width: 6%;
+}
+
