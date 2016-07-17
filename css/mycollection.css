@@ -97,21 +97,27 @@ a.left-item {
 .nav2 a {
     text-decoration: none;
     color: #1e1e1e;
+  margin-left: 50px;
+  margin-right: 50px;
+
 }
 .nav2 a:hover {
     color: pink;
 }
-
+.nav2 a.active {
+    color: pink;
+}
 
 
 .all {
-    margin-bottom:70px;
+    margin-bottom:40px;
 }
-.all a {
+.all a,.graphic a,.web a,.app a,.photo a{
     text-decoration: none;
     color: #1e1e1e;
 }
-.all p a:hover {
+.all p a:hover,.graphic p a:hover,
+.web p a:hover,.photo p a:hover,.app p a:hover {
     color: pink;
 }
 
@@ -208,3 +214,10 @@ a.left-item {
     width: 6%;
 }
 
+.show-item {
+    display: none;
+}
+
+.show-item.active {
+    display: block;
+}
