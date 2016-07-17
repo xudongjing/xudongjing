@@ -34,7 +34,7 @@
 
     <div class="nav2">
         <a href="javascript:void(0);" class="active">所有作品</a>
-        <a href="javascript:void(0);">平面设计</a>
+        <a href="javascript:void(0);" >平面设计</a>
         <a href="javascript:void(0);">网页设计</a>
         <a href="javascript:void(0);">APP界面</a>
         <a href="javascript:void(0);">摄影展示</a>
@@ -344,7 +344,9 @@
                 var i = $(this).index();
                 $('.show-item').removeClass('active');
                 $('.show-item').eq(i).addClass('active');
-            })
+            });
+            var hash = window.location.hash.substr(1);
+            $('.nav2 a').eq(hash).click()
         })
     </script>
 </body>
